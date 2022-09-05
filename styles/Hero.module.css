@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    position: relative;
+    padding-left: 10%;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.colorPizza{
+    color: var(--themeRed);
+}
+
+.cherryDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: var(--pink);
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    color: var(--themeRed);
+    font-weight: bold;
+}
+
+.miniText{
+    width: 70%;
+    color: var(--gray);
+    font-weight: 600;
+}
+
+.btn{
+    padding: 1rem 2.5rem;
+}
+
+.derecha{
+    position: relative;
+}
+
+.imageContainer{
+    width: 30rem;
+    position: absolute;
+    top: -5rem;
+    left: -5rem;
+}
+
+
+.ContactUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 5rem;
+    top: 5rem;
+}
